@@ -1,0 +1,70 @@
+
+D:\sidd\SIP_reprocessing\Unix2Windows>ECHO Welcome to SIP Reprocessing script, Pls. check as it's a BETA Version.
+Welcome to SIP Reprocessing script, Pls. check as it's a BETA Version.
+
+D:\sidd\SIP_reprocessing\Unix2Windows>ECHO off
+Press any key to continue . . .
+Importing "timelogs"
+timelogs                  |         10 kB |  10.3 kB/s | ETA: 00:00:00 | 100%
+(B) Generate list of failed HZ estimate MCF files uploaded from the list of reported failed MCFs (timelogs)
+TO Move forward press Enter
+Press any key to continue . . .
+HZ_BodyShop_MCF_list.txt  |          1 kB |   1.9 kB/s | ETA: 00:00:00 | 100%
+CARR_STD_SUCCESS.sql      |          2 kB |   2.1 kB/s | ETA: 00:00:00 | 100%
+Check whether SQL Result correct or not.
+Press any key to continue . . .
+rowcount SQL is "40"
+'+' appears 40 times in HZ_BodyShop_MCF_list
+SUCCESS
+Press any key to continue . . .
+(C) Remove already processed HZ estimate MCF files from NAS path \\prod03nas\ECDsharePROD\...
+TO Move forward press Enter
+Press any key to continue . . .
+moveWinfailedHZEstfileLis |          5 kB |   5.9 kB/s | ETA: 00:00:00 | 100%
+TO Move forward press Enter (moveWinfailedHZEstfileList.bat)
+Press any key to continue . . .
+(D) Remove already processed HZ estimate MCFs uploaded from the list of reported failed MCFs (timelogs)
+TO Move forward press Enter
+Press any key to continue . . .
+timelogs_HZ_removed       |          4 kB |   4.6 kB/s | ETA: 00:00:00 | 100%
+(E) Move the failed estimate MCFs from filecapture_outgoing to drop folder for further reprocessing.
+TO Move forward press Enter
+Press any key to continue . . .
+moveWinfailedEstfileList. |          7 kB |   7.2 kB/s | ETA: 00:00:00 | 100%
+TO Move forward press Enter (moveWinfailedEstfileList.bat)
+Press any key to continue . . .
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+Script got finished (Press enter)
+Press any key to continue . . .
+
+
